@@ -2,7 +2,9 @@ name: Trading agent
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    # Run at 9:30 and 3:00 EST on weekdays, tz: UTC
+    - cron: "30 14 * * 1-5" # 9:30 AM EST
+    - cron: "0 20 * * 1-5" # 3
   workflow_dispatch:
 
 permissions:

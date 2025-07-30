@@ -1,250 +1,66 @@
 {
-  "cash": 0.08,
+  "cash": 0.46,
   "holdings": {
     "PLTR": 0,
     "TSLA": 0,
-    "NVDA": 4.82,
-    "GOOGL": 1,
+    "NVDA": 0,
+    "GOOGL": 0,
     "RIVN": 0,
     "ALT": 0,
     "BB": 0,
     "NIO": 0,
-    "RCL": 0.146,
-    "HEI": 0.084,
-    "XLI": 0.43
+    "RCL": 0,
+    "HEI": 0,
+    "XLI": 0,
+    "HLIT": 0,
+    "ENVB": 63,
+    "IMNN": 0,
+    "COST": 0,
+    "CASK": 312,
+    "STAI": 185,
+    "CDNS": 1,
+    "NVNI": 240
   },
   "history": [
     {
-      "date": "2025-06-24T13:14:10.516Z",
+      "date": "2025-07-30T05:55:13.216Z",
       "type": "buy",
-      "ticker": "PLTR",
+      "ticker": "CASK",
+      "shares": 312,
+      "price": 0.58,
+      "total": 180.95999999999998
+    },
+    {
+      "date": "2025-07-30T05:55:13.681Z",
+      "type": "buy",
+      "ticker": "STAI",
+      "shares": 185,
+      "price": 1.19,
+      "total": 220.14999999999998
+    },
+    {
+      "date": "2025-07-30T05:55:13.862Z",
+      "type": "buy",
+      "ticker": "CDNS",
       "shares": 1,
-      "price": 139.92,
-      "total": 139.92
+      "price": 366.26,
+      "total": 366.26
     },
     {
-      "date": "2025-06-24T13:14:10.552Z",
+      "date": "2025-07-30T05:55:15.102Z",
       "type": "buy",
-      "ticker": "TSLA",
-      "shares": 1,
-      "price": 348.68,
-      "total": 348.68
+      "ticker": "NVNI",
+      "shares": 240,
+      "price": 0.6445,
+      "total": 154.67999999999998
     },
     {
-      "date": "2025-06-24T13:14:10.562Z",
+      "date": "2025-07-30T06:05:33.485Z",
       "type": "buy",
-      "ticker": "NVDA",
-      "shares": 2,
-      "price": 144.17,
-      "total": 288.34
-    },
-    {
-      "date": "2025-06-24T13:19:50.408Z",
-      "type": "buy",
-      "ticker": "GOOGL",
-      "shares": 1,
-      "price": 165.19,
-      "total": 165.19
-    },
-    {
-      "date": "2025-06-24T18:05:59.852Z",
-      "type": "sell",
-      "ticker": "NVDA",
-      "shares": 1,
-      "price": 147.55,
-      "total": 147.55
-    },
-    {
-      "date": "2025-06-24T18:06:07.560Z",
-      "type": "buy",
-      "ticker": "RIVN",
-      "shares": 14,
-      "price": 13.795,
-      "total": 193.13
-    },
-    {
-      "date": "2025-06-25T00:17:44.933Z",
-      "type": "sell",
-      "ticker": "TSLA",
-      "shares": 1,
-      "price": 340.47,
-      "total": 340.47
-    },
-    {
-      "date": "2025-06-25T00:17:48.230Z",
-      "type": "buy",
-      "ticker": "ALT",
-      "shares": 49,
-      "price": 7.19,
-      "total": 352.31
-    },
-    {
-      "date": "2025-06-25T12:07:27.419Z",
-      "type": "sell",
-      "ticker": "ALT",
-      "shares": 49,
-      "price": 7.19,
-      "total": 352.31
-    },
-    {
-      "date": "2025-06-25T12:08:38.290Z",
-      "type": "buy",
-      "ticker": "BB",
-      "shares": 81,
-      "price": 4.33,
-      "total": 350.73
-    },
-    {
-      "date": "2025-06-25T18:06:05.618Z",
-      "type": "sell",
-      "ticker": "BB",
-      "shares": 81,
-      "price": 4.965,
-      "total": 402.16499999999996
-    },
-    {
-      "date": "2025-06-25T18:06:14.305Z",
-      "type": "buy",
-      "ticker": "NVDA",
-      "shares": 2,
-      "price": 153.66,
-      "total": 307.32
-    },
-    {
-      "date": "2025-06-26T12:07:10.545Z",
-      "type": "buy",
-      "ticker": "NVDA",
-      "shares": 0.5,
-      "price": 154.31,
-      "total": 77.155
-    },
-    {
-      "date": "2025-06-26T18:05:56.963Z",
-      "type": "buy",
-      "ticker": "NVDA",
-      "shares": 0.12,
-      "price": 155.99,
-      "total": 18.7188
-    },
-    {
-      "date": "2025-06-27T12:08:41.523Z",
-      "type": "sell",
-      "ticker": "RIVN",
-      "shares": 14,
-      "price": 13.91,
-      "total": 194.74
-    },
-    {
-      "date": "2025-06-27T12:08:45.816Z",
-      "type": "buy",
-      "ticker": "NIO",
-      "shares": 40,
-      "price": 3.42,
-      "total": 136.8
-    },
-    {
-      "date": "2025-06-27T12:08:51.135Z",
-      "type": "buy",
-      "ticker": "NVDA",
-      "shares": 0.38,
-      "price": 155.02,
-      "total": 58.9076
-    },
-    {
-      "date": "2025-06-28T06:05:45.251Z",
-      "type": "sell",
-      "ticker": "PLTR",
-      "shares": 1,
-      "price": 130.74,
-      "total": 130.74
-    },
-    {
-      "date": "2025-06-28T06:05:57.540Z",
-      "type": "buy",
-      "ticker": "NVDA",
-      "shares": 0.82,
-      "price": 157.75,
-      "total": 129.355
-    },
-    {
-      "date": "2025-06-29T18:05:40.016Z",
-      "type": "sell",
-      "ticker": "NIO",
-      "shares": 40,
-      "price": 3.46,
-      "total": 138.4
-    },
-    {
-      "date": "2025-06-30T12:07:38.638Z",
-      "type": "buy",
-      "ticker": "NVDA",
-      "shares": 0.444,
-      "price": 157.75,
-      "total": 70.041
-    },
-    {
-      "date": "2025-06-30T18:06:24.724Z",
-      "type": "buy",
-      "ticker": "NVDA",
-      "shares": 0.441,
-      "price": 158.04,
-      "total": 69.69564
-    },
-    {
-      "date": "2025-07-01T18:05:53.383Z",
-      "type": "sell",
-      "ticker": "NVDA",
-      "shares": 0.885,
-      "price": 154.45,
-      "total": 136.68824999999998
-    },
-    {
-      "date": "2025-07-02T00:17:45.754Z",
-      "type": "buy",
-      "ticker": "RCL",
-      "shares": 0.146,
-      "price": 315.1,
-      "total": 46.0046
-    },
-    {
-      "date": "2025-07-02T06:06:55.611Z",
-      "type": "buy",
-      "ticker": "HEI",
-      "shares": 0.084,
-      "price": 321.51,
-      "total": 27.00684
-    },
-    {
-      "date": "2025-07-02T12:07:32.530Z",
-      "type": "buy",
-      "ticker": "XLI",
-      "shares": 0.129,
-      "price": 148.01,
-      "total": 19.09329
-    },
-    {
-      "date": "2025-07-03T00:17:56.356Z",
-      "type": "buy",
-      "ticker": "XLI",
-      "shares": 0.094,
-      "price": 148.16,
-      "total": 13.92704
-    },
-    {
-      "date": "2025-07-03T06:07:01.421Z",
-      "type": "buy",
-      "ticker": "XLI",
-      "shares": 0.101,
-      "price": 148.16,
-      "total": 14.964160000000001
-    },
-    {
-      "date": "2025-07-03T12:07:35.672Z",
-      "type": "buy",
-      "ticker": "XLI",
-      "shares": 0.106,
-      "price": 148.16,
-      "total": 15.70496
+      "ticker": "ENVB",
+      "shares": 63,
+      "price": 1.23,
+      "total": 77.49
     }
   ]
 }

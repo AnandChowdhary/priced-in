@@ -1,0 +1,17 @@
+name: Delete thread.json on fork
+
+on: fork
+
+jobs:
+  delete-thread:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Delete thread.json
+        run: |
+          git rm -f thread.json || rm -f thread.json
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am ":wastebasket: Remove thread.json on fork [skip ci]" || echo "No changes to commit"
+          git push
