@@ -1,5 +1,5 @@
 {
-  "cash": 0.08,
+  "cash": 0.17,
   "holdings": {
     "PLTR": 0,
     "TSLA": 0,
@@ -9,9 +9,10 @@
     "ALT": 0,
     "BB": 0,
     "NIO": 0,
-    "RCL": 0.146,
+    "RCL": 0,
     "HEI": 0.084,
-    "XLI": 0.43
+    "XLI": 0.59,
+    "XLF": 0.42
   },
   "history": [
     {
@@ -245,6 +246,30 @@
       "shares": 0.106,
       "price": 148.16,
       "total": 15.70496
+    },
+    {
+      "date": "2025-08-01T06:09:03.939Z",
+      "type": "sell",
+      "ticker": "RCL",
+      "shares": 0.146,
+      "price": 317.87,
+      "total": 46.40902
+    },
+    {
+      "date": "2025-08-01T06:09:31.727Z",
+      "type": "buy",
+      "ticker": "XLI",
+      "shares": 0.16,
+      "price": 152.01,
+      "total": 24.3216
+    },
+    {
+      "date": "2025-08-01T06:09:46.374Z",
+      "type": "buy",
+      "ticker": "XLF",
+      "shares": 0.42,
+      "price": 52.37,
+      "total": 21.995399999999997
     }
   ]
 }
