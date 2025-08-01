@@ -2,7 +2,7 @@ name: Trading agent
 
 on:
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "* * * * *"
   workflow_dispatch:
 
 permissions:
