@@ -4,21 +4,23 @@ An autonomous AI-powered stock trading agent that executes trades on GitHub Acti
 
 <!-- auto start -->
 
-## 💰 Portfolio value: $1,221.58** (223.50% CAGR)
+## 💰 Portfolio value: $1,213.25** (209.43% CAGR)
 
 ### 📊 Holdings
 
 | Asset | Shares | Value |
 |-------|--------|-------|
-| Cash | - | $0.40 |
-| NVDA | 4.82 | $873.29 |
-| GOOGL | 1 | $209.69 |
-| XLI | 0.10599999999999998 | $16.12 |
-| XLP | 0.4899999999999999 | $39.91 |
-| XLY | 0.352 | $82.17 |
+| Cash | - | $0.14 |
+| NVDA | 4.82 | $866.68 |
+| GOOGL | 1 | $208.49 |
+| XLI | 0.10599999999999998 | $16.07 |
+| XLP | 0.09999999999999987 | $8.11 |
+| XLY | 0.489 | $113.76 |
 
 ### 📈 Recent trades
 
+- **August 26, 2025 at 12:18:05 AM**: BUY 0.137 XLY @ $232.63/share ($31.87)
+- **August 26, 2025 at 12:17:48 AM**: SELL 0.39 XLP @ $81.06/share ($31.61)
 - **August 25, 2025 at 12:19:34 AM**: BUY 0.14 XLY @ $233.1/share ($32.63)
 - **August 25, 2025 at 12:19:17 AM**: SELL 0.4 XLP @ $82.47/share ($32.99)
 - **August 20, 2025 at 12:18:41 AM**: BUY 0.319 XLP @ $82.75/share ($26.40)
@@ -27,8 +29,6 @@ An autonomous AI-powered stock trading agent that executes trades on GitHub Acti
 - **August 19, 2025 at 12:18:36 AM**: SELL 0.2 XLP @ $81.91/share ($16.38)
 - **August 18, 2025 at 12:20:49 AM**: BUY 0.31 XLP @ $82.02/share ($25.43)
 - **August 18, 2025 at 12:20:36 AM**: SELL 0.084 HEI @ $307.91/share ($25.86)
-- **August 14, 2025 at 12:19:35 AM**: BUY 0.16 XLY @ $229.85/share ($36.78)
-- **August 14, 2025 at 12:19:21 AM**: SELL 0.242 XLI @ $152.48/share ($36.90)
 
 <!-- auto end -->
 
