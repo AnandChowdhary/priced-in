@@ -393,7 +393,7 @@ const agent = new Agent({
 log("Starting agent");
 
 const thread = await loadThread();
-const result = await run(
+run(
   agent,
   thread.concat({
     role: "user",
@@ -402,8 +402,11 @@ const result = await run(
     )}. Time for your trading analysis! Review your portfolio, scan the markets for opportunities, and make strategic trades to grow your initial $1,000 investment. Good luck! 📈`,
   }),
   { maxTurns: 100 }
-);
-log(`🎉 Agent finished: ${result.finalOutput}`);
-
-await saveThread(result.history);
-await updateReadme();
+)
+  .then((result) => {
+    log(`🎉 Agent finished: ${result.finalOutput}`);
+    return result;
+  })
+  .then((result) => saveThread(result.history))
+  .then(() => updateReadme())
+  .catch((error) => console.error("An error occurred", error));
