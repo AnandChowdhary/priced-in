@@ -4,7 +4,7 @@ An autonomous AI-powered stock trading agent that executes trades on GitHub Acti
 
 <!-- auto start -->
 
-## 💰 Portfolio value: $1,330.03** (115.64% CAGR)
+## 💰 Portfolio value: $1,330.03** (115.35% CAGR)
 
 ### 📊 Holdings
 
